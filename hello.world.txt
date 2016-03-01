@@ -2,6 +2,15 @@
 #include<conio.h>
 void main ()
 {
-cout<<"hello world";
+if (n==0)
+cout<<"zero";
+else
+{
+if(n>0)
+{cout<<"positive";}
+else
+{
+cout<<"negative";
+}
 getch();
 }
